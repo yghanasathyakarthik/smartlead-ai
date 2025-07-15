@@ -23,15 +23,15 @@ It intelligently evaluates companies based on online search data, using both cus
 ---
 
 ## 📂 Project Structure
-
 smartlead-ai/
-├── main.py                # Entry point – loops through companies, scores them
-├── scorer.py              # Handles prompt creation and scoring with Groq
-├── search.py              # Performs Google search using SerpAPI
-├── config.py              # Loads Groq and SerpAPI keys from .env
-├── file_io.py             # Handles reading/writing CSV and Excel files
-├── utils.py               # Helpers for formatting, cleaning, parsing scores
-├── requirements.txt       # Dependencies
-├── companies.csv          # Input file of company names to score
-├── README.md              # You're reading it!
-└── images/excel.png       # Sample output preview
+├── main.py # 🔁 Entry point – loops through companies and scores them
+├── scorer.py # 🧠 Creates prompts and handles scoring with Groq LLM
+├── search.py # 🔎 Uses SerpAPI to fetch Google search results
+├── config.py # 🔐 Loads API keys from .env file
+├── file_io.py # 📁 Handles reading/writing Excel and CSV files
+├── utils.py # 🧹 Helper functions (cleaning, formatting, etc.)
+├── requirements.txt # 📦 Python dependencies
+├── README.md # 📘 You're reading it!
+├── companies.csv # 🏢 Input file: list of companies to score
+├── images/
+│ └── excel.png # 📸 Screenshot of Excel output
