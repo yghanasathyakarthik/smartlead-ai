@@ -1,11 +1,25 @@
-# SmartLead AI (Flat Version)
+# 🔍 SmartLead AI – AI-Powered Lead Scoring Tool using Groq & SerpAPI
 
-An AI-based tool to:
-- Search for real-time company info (via SerpAPI)
-- Score lead value using Groq’s LLaMA3 model
-- Label and export as Excel/CSV
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Groq API](https://img.shields.io/badge/Groq-LLM-green)
+![SerpAPI](https://img.shields.io/badge/SerpAPI-Integrated-yellow)
+![Status](https://img.shields.io/badge/Status-Working-brightgreen)
+![Internship Ready](https://img.shields.io/badge/Built%20For-Internship%20Submission-blueviolet)
 
-## Run Instructions
+SmartLead AI is an AI-powered lead scoring tool that uses live web data and Groq's lightning-fast LLM (LLaMA 3 70B) to analyze and score companies in real time.  
+It intelligently evaluates companies based on online search data, using both custom heuristics and large language models to predict how promising each lead is.
 
-1. Clone this repo or download the folder
-2. Create a `.env` file:
+---
+
+## 🚀 Project Features
+
+- 🔎 **Live Company Info Search** – Uses [SerpAPI](https://serpapi.com/) to fetch fresh Google search results for each company.
+- 🧠 **AI Scoring Engine** – Powered by [Groq's LLaMA 3 70B model](https://console.groq.com/) for ultra-fast, intelligent evaluation.
+- 📝 **Custom Prompts** – Each company is scored using a context-rich prompt sent to the LLM.
+- 📊 **Outputs to Excel & CSV** – Clean and ready for client/team usage.
+- 🔐 **Secure API Keys** – All sensitive data is stored in a `.env` file.
+
+---
+
+## 📂 Project Structure
+
