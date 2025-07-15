@@ -5,6 +5,7 @@
 ![SerpAPI](https://img.shields.io/badge/SerpAPI-Integrated-yellow)
 ![Status](https://img.shields.io/badge/Status-Working-brightgreen)
 ![Internship Ready](https://img.shields.io/badge/Built%20For-Internship%20Submission-blueviolet)
+![Excel Output](images/excel.png)
 
 SmartLead AI is an AI-powered lead scoring tool that uses live web data and Groq's lightning-fast LLM (LLaMA 3 70B) to analyze and score companies in real time.  
 It intelligently evaluates companies based on online search data, using both custom heuristics and large language models to predict how promising each lead is.
